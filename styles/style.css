@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Poppins, sans-serif;
+}
+body {
+  background: linear-gradient(290deg, slateblue, rgb(219, 41, 71));
+  /* background: rgb(209, 37, 66); */
+}
+
+.albums {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  padding: 40px;
+  grid-gap: 20px;
+}
+
+.album {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 20px;
+}
+/* .album p {
+  background: goldenrod;
+} */
+
+.album-art {
+  width: 100%;
+}
